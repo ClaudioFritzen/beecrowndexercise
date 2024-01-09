@@ -32,6 +32,10 @@ MEDIA = 10.00000
 A = float(input())
 B = float(input())
 
+A = round(A, 1)
+B = round(B, 1)
+print(A,B)
+
 media = (A + B) / 2
 
 print("MEDIA = {:.5f}".format(media))
